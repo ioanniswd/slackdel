@@ -9,9 +9,22 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "slackdel": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioanniswd/slackdel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ioanniswd/slackdel/issues"
+  },
+  "homepage": "https://github.com/ioanniswd/slackdel#readme",
   "dependencies": {
     "@slack/client": "^3.15.0",
     "bluebird": "^3.5.1",
+    "minimist": "^1.2.0",
     "prompt-promise": "^1.0.3"
   }
 }
