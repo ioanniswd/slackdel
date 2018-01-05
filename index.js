@@ -85,7 +85,7 @@ module.exports = function() {
         }
       }
 
-      console.log('before get');
+      console.log('Deleting..');
 
       https.get(historyApiUrl, function(res) {
 

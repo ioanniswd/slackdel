@@ -4,4 +4,4 @@
 
 const index = require('../index');
 
-module.exports = index;
+module.exports = index();

@@ -16,3 +16,5 @@
   token: 'your-slack-token'
 }
 ```
+
+### **Note: Currently only works for bot messages
